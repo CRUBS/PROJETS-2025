@@ -1,0 +1,1 @@
+ros2 topic pub --once /servos std_msgs/msg/Int16MultiArray "{data:[10,70,70,0,10,180,0]}"
