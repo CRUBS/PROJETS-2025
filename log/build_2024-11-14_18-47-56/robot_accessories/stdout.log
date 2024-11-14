@@ -1,0 +1,39 @@
+running egg_info
+writing ../../build/robot_accessories/robot_accessories.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_accessories/robot_accessories.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_accessories/robot_accessories.egg-info/entry_points.txt
+writing requirements to ../../build/robot_accessories/robot_accessories.egg-info/requires.txt
+writing top-level names to ../../build/robot_accessories/robot_accessories.egg-info/top_level.txt
+reading manifest file '../../build/robot_accessories/robot_accessories.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_accessories/robot_accessories.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_accessories/__init__.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/matrice.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/servosPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/velocity_smoother.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/matrice_test.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/clock.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/sequenceRead.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/lcdPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/sequenceRead copy.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/motorsPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/lidarLedsPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+copying robot_accessories/servosPrepareOld.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+running install
+running install_lib
+running install_data
+copying resource/robot_accessories -> /home/crubs/Documents/dev_ws/install/robot_accessories/share/ament_index/resource_index/packages
+copying package.xml -> /home/crubs/Documents/dev_ws/install/robot_accessories/share/robot_accessories
+copying launch/allAccessories.launch.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/share/robot_accessories/launch
+running install_egg_info
+removing '/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/robot_accessories/robot_accessories.egg-info to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories-0.0.0-py3.12.egg-info
+running install_scripts
+Installing clock script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+Installing lcd_screen_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+Installing lidar_led_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+Installing motors_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+Installing sequence_reader script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+Installing servos_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+writing list of installed files to '/home/crubs/Documents/dev_ws/build/robot_accessories/install.log'

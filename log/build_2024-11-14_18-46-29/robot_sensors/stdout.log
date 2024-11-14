@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/robot_sensors/robot_sensors.egg-info
+writing ../../build/robot_sensors/robot_sensors.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_sensors/robot_sensors.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_sensors/robot_sensors.egg-info/entry_points.txt
+writing requirements to ../../build/robot_sensors/robot_sensors.egg-info/requires.txt
+writing top-level names to ../../build/robot_sensors/robot_sensors.egg-info/top_level.txt
+writing manifest file '../../build/robot_sensors/robot_sensors.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_sensors/robot_sensors.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_sensors/robot_sensors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/crubs/Documents/dev_ws/build/robot_sensors/build/lib/robot_sensors
+copying robot_sensors/__init__.py -> /home/crubs/Documents/dev_ws/build/robot_sensors/build/lib/robot_sensors
+copying robot_sensors/encoders_to_odom.py -> /home/crubs/Documents/dev_ws/build/robot_sensors/build/lib/robot_sensors
+running install
+running install_lib
+creating /home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages/robot_sensors
+copying /home/crubs/Documents/dev_ws/build/robot_sensors/build/lib/robot_sensors/__init__.py -> /home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages/robot_sensors
+copying /home/crubs/Documents/dev_ws/build/robot_sensors/build/lib/robot_sensors/encoders_to_odom.py -> /home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages/robot_sensors
+byte-compiling /home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages/robot_sensors/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages/robot_sensors/encoders_to_odom.py to encoders_to_odom.cpython-312.pyc
+running install_data
+creating /home/crubs/Documents/dev_ws/install/robot_sensors/share/ament_index/resource_index/packages
+copying resource/robot_sensors -> /home/crubs/Documents/dev_ws/install/robot_sensors/share/ament_index/resource_index/packages
+copying package.xml -> /home/crubs/Documents/dev_ws/install/robot_sensors/share/robot_sensors
+creating /home/crubs/Documents/dev_ws/install/robot_sensors/share/robot_sensors/launch
+copying launch/allSensors.launch.py -> /home/crubs/Documents/dev_ws/install/robot_sensors/share/robot_sensors/launch
+running install_egg_info
+Copying ../../build/robot_sensors/robot_sensors.egg-info to /home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages/robot_sensors-0.0.0-py3.12.egg-info
+running install_scripts
+Installing encoders_to_odom script to /home/crubs/Documents/dev_ws/install/robot_sensors/lib/robot_sensors
+writing list of installed files to '/home/crubs/Documents/dev_ws/build/robot_sensors/install.log'

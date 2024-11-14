@@ -1,0 +1,43 @@
+[2.014s] Invoking command in '/home/crubs/Documents/dev_ws/src/robot_accessories': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_accessories/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_accessories build --build-base /home/crubs/Documents/dev_ws/build/robot_accessories/build install --record /home/crubs/Documents/dev_ws/build/robot_accessories/install.log --single-version-externally-managed install_data
+[2.349s] /home/crubs/ros2_env/lib/python3.12/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.349s]   warnings.warn(msg)
+[2.559s] running egg_info
+[2.590s] writing ../../build/robot_accessories/robot_accessories.egg-info/PKG-INFO
+[2.592s] writing dependency_links to ../../build/robot_accessories/robot_accessories.egg-info/dependency_links.txt
+[2.593s] writing entry points to ../../build/robot_accessories/robot_accessories.egg-info/entry_points.txt
+[2.594s] writing requirements to ../../build/robot_accessories/robot_accessories.egg-info/requires.txt
+[2.594s] writing top-level names to ../../build/robot_accessories/robot_accessories.egg-info/top_level.txt
+[2.671s] reading manifest file '../../build/robot_accessories/robot_accessories.egg-info/SOURCES.txt'
+[2.673s] writing manifest file '../../build/robot_accessories/robot_accessories.egg-info/SOURCES.txt'
+[2.674s] running build
+[2.674s] running build_py
+[2.674s] copying robot_accessories/__init__.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.676s] copying robot_accessories/matrice.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.676s] copying robot_accessories/servosPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.676s] copying robot_accessories/velocity_smoother.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.676s] copying robot_accessories/matrice_test.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.676s] copying robot_accessories/clock.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.677s] copying robot_accessories/sequenceRead.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.677s] copying robot_accessories/lcdPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.677s] copying robot_accessories/sequenceRead copy.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.677s] copying robot_accessories/motorsPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.677s] copying robot_accessories/lidarLedsPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.677s] copying robot_accessories/servosPrepareOld.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[2.678s] running install
+[2.687s] running install_lib
+[2.721s] running install_data
+[2.722s] copying resource/robot_accessories -> /home/crubs/Documents/dev_ws/install/robot_accessories/share/ament_index/resource_index/packages
+[2.722s] copying package.xml -> /home/crubs/Documents/dev_ws/install/robot_accessories/share/robot_accessories
+[2.723s] copying launch/allAccessories.launch.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/share/robot_accessories/launch
+[2.723s] running install_egg_info
+[2.757s] removing '/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories-0.0.0-py3.12.egg-info' (and everything under it)
+[2.759s] Copying ../../build/robot_accessories/robot_accessories.egg-info to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories-0.0.0-py3.12.egg-info
+[2.759s] running install_scripts
+[2.996s] Installing clock script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[2.997s] Installing lcd_screen_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[2.999s] Installing lidar_led_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[2.999s] Installing motors_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.000s] Installing sequence_reader script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.001s] Installing servos_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.006s] writing list of installed files to '/home/crubs/Documents/dev_ws/build/robot_accessories/install.log'
+[3.178s] Invoked command in '/home/crubs/Documents/dev_ws/src/robot_accessories' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_accessories/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_accessories build --build-base /home/crubs/Documents/dev_ws/build/robot_accessories/build install --record /home/crubs/Documents/dev_ws/build/robot_accessories/install.log --single-version-externally-managed install_data

@@ -1,0 +1,7 @@
+[console_scripts]
+clock = robot_accessories.clock:main
+lcd_screen_prepare = robot_accessories.lcdPrepare:main
+lidar_led_prepare = robot_accessories.lidarLedsPrepare:main
+motors_prepare = robot_accessories.motorsPrepare:main
+sequence_reader = robot_accessories.sequenceRead:main
+servos_prepare = robot_accessories.servosPrepare:main

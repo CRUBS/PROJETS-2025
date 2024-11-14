@@ -1,0 +1,59 @@
+[0.026s] Invoking command in '/home/crubs/Documents/dev_ws/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake /home/crubs/Documents/dev_ws/src/robot_navigation -DCMAKE_INSTALL_PREFIX=/home/crubs/Documents/dev_ws/install/robot_navigation
+[0.348s] -- The C compiler identification is GNU 13.2.0
+[0.645s] -- The CXX compiler identification is GNU 13.2.0
+[0.738s] -- Detecting C compiler ABI info
+[1.262s] -- Detecting C compiler ABI info - done
+[1.299s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.300s] -- Detecting C compile features
+[1.305s] -- Detecting C compile features - done
+[1.344s] -- Detecting CXX compiler ABI info
+[1.896s] -- Detecting CXX compiler ABI info - done
+[1.936s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.937s] -- Detecting CXX compile features
+[1.944s] -- Detecting CXX compile features - done
+[1.955s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.550s] -- Found Python3: /home/crubs/ros2_env/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.219s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.932s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.939s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.939s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.945s] -- Added test 'lint_cmake' to check CMake code style
+[3.945s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.949s] -- Added test 'xmllint' to check XML markup files
+[3.954s] -- Configuring done (3.9s)
+[3.968s] -- Generating done (0.0s)
+[3.972s] -- Build files have been written to: /home/crubs/Documents/dev_ws/build/robot_navigation
+[4.001s] Invoked command in '/home/crubs/Documents/dev_ws/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake /home/crubs/Documents/dev_ws/src/robot_navigation -DCMAKE_INSTALL_PREFIX=/home/crubs/Documents/dev_ws/install/robot_navigation
+[4.001s] Invoking command in '/home/crubs/Documents/dev_ws/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --build /home/crubs/Documents/dev_ws/build/robot_navigation -- -j4 -l4
+[4.210s] Invoked command in '/home/crubs/Documents/dev_ws/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --build /home/crubs/Documents/dev_ws/build/robot_navigation -- -j4 -l4
+[4.315s] Invoking command in '/home/crubs/Documents/dev_ws/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --install /home/crubs/Documents/dev_ws/build/robot_navigation
+[4.358s] -- Install configuration: ""
+[4.359s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch
+[4.359s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/smoother.launch.py
+[4.364s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/nav2.launch.py
+[4.365s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/map_server.launch.py
+[4.367s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/slam.launch.py
+[4.367s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/maps
+[4.368s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/maps/map.yaml
+[4.368s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/maps/Map_complete.pgm
+[4.489s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/config
+[4.489s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/config/smoother.yaml
+[4.490s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/config/slam.yaml
+[4.494s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/config/navigate_w_replanning_and_recovery.xml
+[4.494s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/config/nav2_params.yaml
+[4.495s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/ament_index/resource_index/package_run_dependencies/robot_navigation
+[4.495s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/ament_index/resource_index/parent_prefix_path/robot_navigation
+[4.496s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.sh
+[4.496s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.dsv
+[4.496s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/environment/path.sh
+[4.498s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/environment/path.dsv
+[4.499s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/local_setup.bash
+[4.499s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/local_setup.sh
+[4.520s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/local_setup.zsh
+[4.521s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/local_setup.dsv
+[4.521s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/package.dsv
+[4.521s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/ament_index/resource_index/packages/robot_navigation
+[4.521s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig.cmake
+[4.522s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig-version.cmake
+[4.524s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/package.xml
+[4.536s] Invoked command in '/home/crubs/Documents/dev_ws/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --install /home/crubs/Documents/dev_ws/build/robot_navigation

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
+
+  <!-- Pour la gestion des chemins absolus differents sur nos 2 installations -->
+  <xacro:property name="repo_path" value="/home/julien/github_ros/" />
+  <!--xacro:property name="repo_path" value="/home/kyliban/Documents/Github/Robot_ros2_2024"/-->
+
+  <xacro:include filename="robot_core.xacro" />
+  <xacro:include filename="gazebo_plugins.xacro" />
+
+</robot>
