@@ -1,7 +1,0 @@
-[console_scripts]
-interfaceGPIO = robot_communication.interfaceGPIO:main
-interfaceI2C = robot_communication.interfaceI2C:main
-interfacePAMI = robot_communication.interfacePAMI:main
-moteurI2C = robot_communication.moteurI2C:main
-robotI2C = robot_communication.robotI2C:main
-testI2C = robot_communication.testI2C:main

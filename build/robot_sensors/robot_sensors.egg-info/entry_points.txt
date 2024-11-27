@@ -1,2 +1,0 @@
-[console_scripts]
-encoders_to_odom = robot_sensors.encoders_to_odom:main
