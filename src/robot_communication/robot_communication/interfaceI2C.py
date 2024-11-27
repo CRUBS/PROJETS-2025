@@ -322,15 +322,15 @@ class i2cInterface(Node):
 			imu_msg.angular_velocity.z = np.radians(gz)
 
 			imu_msg.angular_velocity_covariance = [
-				10., 0., 0.,
-                0., 10., 0.,
-                0., 0., 10.
+				100., 0., 0.,
+                0., 100., 0.,
+                0., 0., 100.
 			]
 
 			imu_msg.linear_acceleration_covariance = [
-				10., 0., 0.,
-                0., 10., 0.,
-                0., 0., 10.
+				100., 0., 0.,
+                0., 100., 0.,
+                0., 0., 100.
 			]
 			
 			""" imu_msg.angular_velocity_covariance = [

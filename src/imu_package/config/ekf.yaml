@@ -138,7 +138,7 @@ ekf_filter_node:
         imu0_config: [false, false, false,
                       false, false, false,
                       false, false, false,
-                      false,  false,  true,
+                      false, false, true,
                       true,  true,  false]
 
         #        [x_pos   , y_pos    , z_pos,
