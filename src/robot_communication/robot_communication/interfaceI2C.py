@@ -314,35 +314,24 @@ class i2cInterface(Node):
 			imu_msg.header.stamp = self.get_clock().now().to_msg()
 			imu_msg.header.frame_id = "imu_link" 
 
-			imu_msg.linear_acceleration.x = ax * 9.81  # en m/s^2
+			imu_msg.linear_acceleration.x = ax * 9.81   # en m/s^2
 			imu_msg.linear_acceleration.y = ay * 9.81
 			imu_msg.linear_acceleration.z = az * 9.81
-			imu_msg.angular_velocity.x = np.radians(gx)  # en rad/s
+			imu_msg.angular_velocity.x = np.radians(gx) # en rad/s
 			imu_msg.angular_velocity.y = np.radians(gy)
 			imu_msg.angular_velocity.z = np.radians(gz)
 
 			imu_msg.angular_velocity_covariance = [
-				100., 0., 0.,
-                0., 100., 0.,
-                0., 0., 100.
+				1000, 0., 0.,
+                0., 1000, 0.,
+                0., 0., 1000
 			]
 
 			imu_msg.linear_acceleration_covariance = [
-				100., 0., 0.,
-                0., 100., 0.,
-                0., 0., 100.
+				1000, 0., 0.,
+                0., 1000, 0.,
+                0., 0., 1000
 			]
-			
-			""" imu_msg.angular_velocity_covariance = [
-				0.01236, -1.01e-04, 1.01e-03,
-                -1.01e-04, 0.01324, 9.84e-04,
-                1.01e-03, 9.84e-04, 0.01429]
-
-			imu_msg.linear_acceleration_covariance = [
-				4.89e-06, -1.24e-08, 2.04e-07,
-                -1.24e-08, 5.05e-06, 3.44e-08,
-                2.04e-07, 3.44e-08, 4.47e-06
-			] """
 
 			# Remplir le message MagneticField
 			mag_msg.header.stamp = self.get_clock().now().to_msg()
@@ -352,9 +341,9 @@ class i2cInterface(Node):
 			mag_msg.magnetic_field.y = my
 			mag_msg.magnetic_field.z = mz
 			mag_msg.magnetic_field_covariance = [
-				0.48492, 0.01697, 0.01263,
-                0.01697, 0.48186, 0.02228,
-                0.01263, 0.02228, 0.44869
+				1000., 0., 0.,
+                0., 1000., 0.,
+                0., 0., 1000.
 			]
 
 			# Publier les messages

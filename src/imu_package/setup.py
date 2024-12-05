@@ -26,7 +26,7 @@ setup(
         'console_scripts': [
 		    'imu_main = imu_package.imu_main:main',
         	'wheel_listener = imu_package.wheel_listener:main',
-        
+            'cmd_test = imu_package.cmd_test:main'
         ],
     },
 )
