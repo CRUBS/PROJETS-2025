@@ -10,7 +10,9 @@ setup.py
 ../../build/imu_package/imu_package.egg-info/zip-safe
 config/ekf.yaml
 imu_package/__init__.py
+imu_package/cmd_test.py
 imu_package/imu_main.py
+imu_package/move_2sec.py
 imu_package/wheel_listener.py
 imu_package/submodules/kayak_function.py
 imu_package/submodules/madgwick.py

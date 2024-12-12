@@ -1,0 +1,28 @@
+[0.041s] Invoking command in '/home/crubs/Documents/dev_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/crubs/Documents/dev_ws/build/camera_ros -- -j4 -l4
+[0.418s] [ 33%] Built target camera_node
+[0.419s] [ 83%] Built target utils
+[0.419s] [100%] Built target camera_component
+[0.421s] Invoked command in '/home/crubs/Documents/dev_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/crubs/Documents/dev_ws/build/camera_ros -- -j4 -l4
+[0.442s] Invoking command in '/home/crubs/Documents/dev_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/crubs/Documents/dev_ws/build/camera_ros
+[0.802s] -- Install configuration: ""
+[0.803s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/lib/camera_ros/camera_node
+[0.803s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/lib/libcamera_component.so
+[0.803s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros//launch
+[0.803s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py
+[0.803s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros
+[0.803s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros
+[0.804s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh
+[0.804s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv
+[0.804s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/path.sh
+[0.804s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/path.dsv
+[0.805s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.bash
+[0.805s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.sh
+[0.805s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.zsh
+[0.805s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.dsv
+[0.805s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/package.dsv
+[0.805s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros
+[0.805s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros
+[0.806s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake
+[0.806s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake
+[0.806s] -- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/package.xml
+[0.815s] Invoked command in '/home/crubs/Documents/dev_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/crubs/Documents/dev_ws/build/camera_ros

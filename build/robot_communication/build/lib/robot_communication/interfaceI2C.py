@@ -51,9 +51,10 @@ class i2cInterface(Node):
 		
 		try: self.lcd = LCD(); time.sleep(0.5)
 		except: self.get_logger().info("lcd screen not found")
-		
-		try: self.imu = ICM20948()
-		except: self.get_logger().info("imu not found")
+		##############################################################################################
+		#try: self.imu = ICM20948()
+		#except: self.get_logger().info("imu not found")
+		################################################################################################
 		
 		# I2C addresses
 		self.esp32Adress = 0x14
@@ -129,14 +130,16 @@ class i2cInterface(Node):
 		self.publisherEncoder1 = self.create_publisher(Int16, '/motors/measure/encoder_1', 10)
 		self.publisherEncoder2 = self.create_publisher(Int16, '/motors/measure/encoder_2', 10)
 		#self.publisherEncoder3 = self.create_publisher(Int16, '/motors/measure/encoder_3', 10)
-		self.publisherImu = self.create_publisher(Imu, '/imu/data_raw', 10)
+		####################################################################################################
+		#self.publisherImu = self.create_publisher(Imu, '/imu/data_raw', 10)
 		self.publisherMag = self.create_publisher(MagneticField, '/imu/mag', 10)
 		self.publisherVl53 = self.create_publisher(Int16MultiArray, '/tof_sensors', 10)
 				
 		## ROS2 timers 
 		self.timerScreen = self.create_timer(0.5, self.timer_screen_callback)
 		self.timerServos = self.create_timer(0.2, self.timer_servos_callback)
-		self.timerImu = self.create_timer(0.04, self.timer_imu_callback)
+		##########################################################################################################
+		#self.timerImu = self.create_timer(0.04, self.timer_imu_callback)
 		self.timerVl53 = self.create_timer(0.25, self.timer_vl53_callback)
 		self.timerMotors = self.create_timer(0.1, self.timer_motors_callback)
 		#self.timerEncoders = self.create_timer(0.1, self.timer_encoders_callback)
@@ -145,7 +148,8 @@ class i2cInterface(Node):
 		
 		self.publisherTimerStatusScreen = self.create_publisher(String, '/timers_status/screen', 10)
 		self.publisherTimerStatusServos = self.create_publisher(String, '/timers_status/servos', 10)
-		self.publisherTimerStatusImu = self.create_publisher(String, '/timers_status/imu', 10)
+		###################################################################################################
+		#self.publisherTimerStatusImu = self.create_publisher(String, '/timers_status/imu', 10)
 		self.publisherTimerStatusVl53 = self.create_publisher(String, '/timers_status/vl53', 10)
 		self.publisherTimerStatusEncoders = self.create_publisher(String, '/timers_status/encoders', 10)
 		self.publisherTimerStatusMotors = self.create_publisher(String, '/timers_status/motors', 10)
@@ -221,7 +225,6 @@ class i2cInterface(Node):
 				except:
 					pass
 			"""
-
 		self.i2cBusy = False
 		msgE1 = Int16()
 		msgE2 = Int16()
@@ -293,8 +296,8 @@ class i2cInterface(Node):
 			msgStatus.data = "error"
 		self.i2cBusy = False
 		self.publisherTimerStatusServos.publish(msgStatus)
-	
-	def timer_imu_callback(self):
+	######################################################################################################""
+	"""def timer_imu_callback(self):
 		# Function getting measurements from IMU
 		imu_msg = Imu()
 		mag_msg = MagneticField()
@@ -314,35 +317,24 @@ class i2cInterface(Node):
 			imu_msg.header.stamp = self.get_clock().now().to_msg()
 			imu_msg.header.frame_id = "imu_link" 
 
-			imu_msg.linear_acceleration.x = ax * 9.81  # en m/s^2
+			imu_msg.linear_acceleration.x = ax * 9.81   # en m/s^2
 			imu_msg.linear_acceleration.y = ay * 9.81
 			imu_msg.linear_acceleration.z = az * 9.81
-			imu_msg.angular_velocity.x = np.radians(gx)  # en rad/s
+			imu_msg.angular_velocity.x = np.radians(gx) # en rad/s
 			imu_msg.angular_velocity.y = np.radians(gy)
 			imu_msg.angular_velocity.z = np.radians(gz)
 
 			imu_msg.angular_velocity_covariance = [
-				10., 0., 0.,
-                0., 10., 0.,
-                0., 0., 10.
+				1000, 0., 0.,
+                0., 1000, 0.,
+                0., 0., 1000
 			]
 
 			imu_msg.linear_acceleration_covariance = [
-				10., 0., 0.,
-                0., 10., 0.,
-                0., 0., 10.
+				1000, 0., 0.,
+                0., 1000, 0.,
+                0., 0., 1000
 			]
-			
-			""" imu_msg.angular_velocity_covariance = [
-				0.01236, -1.01e-04, 1.01e-03,
-                -1.01e-04, 0.01324, 9.84e-04,
-                1.01e-03, 9.84e-04, 0.01429]
-
-			imu_msg.linear_acceleration_covariance = [
-				4.89e-06, -1.24e-08, 2.04e-07,
-                -1.24e-08, 5.05e-06, 3.44e-08,
-                2.04e-07, 3.44e-08, 4.47e-06
-			] """
 
 			# Remplir le message MagneticField
 			mag_msg.header.stamp = self.get_clock().now().to_msg()
@@ -352,9 +344,9 @@ class i2cInterface(Node):
 			mag_msg.magnetic_field.y = my
 			mag_msg.magnetic_field.z = mz
 			mag_msg.magnetic_field_covariance = [
-				0.48492, 0.01697, 0.01263,
-                0.01697, 0.48186, 0.02228,
-                0.01263, 0.02228, 0.44869
+				1000., 0., 0.,
+                0., 1000., 0.,
+                0., 0., 1000.
 			]
 
 			# Publier les messages
@@ -367,6 +359,7 @@ class i2cInterface(Node):
 
 		self.i2cBusy = False
 		self.publisherTimerStatusImu.publish(msgStatus)
+	"""
 
 	def timer_esp32_callback(self):
 		msgStatus = String()

@@ -1,0 +1,26 @@
+[1.683s] Invoking command in '/home/crubs/Documents/dev_ws/src/robot_communication': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_communication/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_communication build --build-base /home/crubs/Documents/dev_ws/build/robot_communication/build install --record /home/crubs/Documents/dev_ws/build/robot_communication/install.log --single-version-externally-managed install_data
+[2.215s] running egg_info
+[2.245s] writing ../../build/robot_communication/robot_communication.egg-info/PKG-INFO
+[2.246s] writing dependency_links to ../../build/robot_communication/robot_communication.egg-info/dependency_links.txt
+[2.249s] writing entry points to ../../build/robot_communication/robot_communication.egg-info/entry_points.txt
+[2.249s] writing requirements to ../../build/robot_communication/robot_communication.egg-info/requires.txt
+[2.250s] writing top-level names to ../../build/robot_communication/robot_communication.egg-info/top_level.txt
+[2.313s] reading manifest file '../../build/robot_communication/robot_communication.egg-info/SOURCES.txt'
+[2.314s] writing manifest file '../../build/robot_communication/robot_communication.egg-info/SOURCES.txt'
+[2.314s] running build
+[2.315s] running build_py
+[2.315s] running install
+[2.326s] running install_lib
+[2.364s] running install_data
+[2.365s] running install_egg_info
+[2.403s] removing '/home/crubs/Documents/dev_ws/install/robot_communication/lib/python3.12/site-packages/robot_communication-0.0.0-py3.12.egg-info' (and everything under it)
+[2.404s] Copying ../../build/robot_communication/robot_communication.egg-info to /home/crubs/Documents/dev_ws/install/robot_communication/lib/python3.12/site-packages/robot_communication-0.0.0-py3.12.egg-info
+[2.406s] running install_scripts
+[2.627s] Installing interfaceGPIO script to /home/crubs/Documents/dev_ws/install/robot_communication/lib/robot_communication
+[2.628s] Installing interfaceI2C script to /home/crubs/Documents/dev_ws/install/robot_communication/lib/robot_communication
+[2.630s] Installing interfacePAMI script to /home/crubs/Documents/dev_ws/install/robot_communication/lib/robot_communication
+[2.631s] Installing moteurI2C script to /home/crubs/Documents/dev_ws/install/robot_communication/lib/robot_communication
+[2.632s] Installing robotI2C script to /home/crubs/Documents/dev_ws/install/robot_communication/lib/robot_communication
+[2.634s] Installing testI2C script to /home/crubs/Documents/dev_ws/install/robot_communication/lib/robot_communication
+[2.635s] writing list of installed files to '/home/crubs/Documents/dev_ws/build/robot_communication/install.log'
+[2.723s] Invoked command in '/home/crubs/Documents/dev_ws/src/robot_communication' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_communication/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_communication build --build-base /home/crubs/Documents/dev_ws/build/robot_communication/build install --record /home/crubs/Documents/dev_ws/build/robot_communication/install.log --single-version-externally-managed install_data

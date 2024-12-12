@@ -30,11 +30,18 @@ def generate_launch_description():
         executable = 'wheel_listener'
     )
 
-    tf_base_to_odom = Node(
+    tf_base_link_to_imu_link = Node(
         package="tf2_ros",
         executable="static_transform_publisher",
         output="screen" ,
-        arguments=["0", "0", "0", "0", "0", "0", "odom", "base_link"]
+        arguments=["-0.0032751", "0.05685", "0.029", "0", "0", "0","base_link", "imu_link"]
+    )
+
+    tf_base_footprint_to_base_link = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        output="screen" ,
+        arguments=["0", "0", "0", "0", "0", "0", "base_footprint", "base_link"]
     )
 
     madgwick = Node(
@@ -45,15 +52,16 @@ def generate_launch_description():
         parameters=[{
             'use_mag': True,  # Utilise le magnétomètre pour une orientation plus précise
             'world_frame': 'enu',  # Format des données de sortie (East-North-Up)
-            'publish_tf': True,  # Désactiver la publication TF si non nécessaire
+            'publish_tf': False,  # Désactiver la publication TF si non nécessaire
             'frequency': 25.0,  # Fréquence de traitement (ajuster selon les capacités de l'IMU)
-            'gain': 0.3  # Ajuste le gain pour la précision du filtre
+            'gain': 0.2  # Ajuste le gain pour la précision du filtre
         }]
     )
 
     return LaunchDescription([
-        ekf,
-        madgwick,
+        #ekf,
+        #madgwick,
         wheel,
-        tf_base_to_odom
+        tf_base_footprint_to_base_link,
+        tf_base_link_to_imu_link
     ])

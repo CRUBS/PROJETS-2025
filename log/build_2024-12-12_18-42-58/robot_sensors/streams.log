@@ -1,0 +1,21 @@
+[1.368s] Invoking command in '/home/crubs/Documents/dev_ws/src/robot_sensors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sensors build --build-base /home/crubs/Documents/dev_ws/build/robot_sensors/build install --record /home/crubs/Documents/dev_ws/build/robot_sensors/install.log --single-version-externally-managed install_data
+[1.756s] running egg_info
+[1.784s] writing ../../build/robot_sensors/robot_sensors.egg-info/PKG-INFO
+[1.787s] writing dependency_links to ../../build/robot_sensors/robot_sensors.egg-info/dependency_links.txt
+[1.788s] writing entry points to ../../build/robot_sensors/robot_sensors.egg-info/entry_points.txt
+[1.788s] writing requirements to ../../build/robot_sensors/robot_sensors.egg-info/requires.txt
+[1.789s] writing top-level names to ../../build/robot_sensors/robot_sensors.egg-info/top_level.txt
+[1.848s] reading manifest file '../../build/robot_sensors/robot_sensors.egg-info/SOURCES.txt'
+[1.852s] writing manifest file '../../build/robot_sensors/robot_sensors.egg-info/SOURCES.txt'
+[1.852s] running build
+[1.852s] running build_py
+[1.854s] running install
+[1.864s] running install_lib
+[1.896s] running install_data
+[1.897s] running install_egg_info
+[1.929s] removing '/home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages/robot_sensors-0.0.0-py3.12.egg-info' (and everything under it)
+[1.929s] Copying ../../build/robot_sensors/robot_sensors.egg-info to /home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages/robot_sensors-0.0.0-py3.12.egg-info
+[1.932s] running install_scripts
+[2.132s] Installing encoders_to_odom script to /home/crubs/Documents/dev_ws/install/robot_sensors/lib/robot_sensors
+[2.134s] writing list of installed files to '/home/crubs/Documents/dev_ws/build/robot_sensors/install.log'
+[2.216s] Invoked command in '/home/crubs/Documents/dev_ws/src/robot_sensors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sensors build --build-base /home/crubs/Documents/dev_ws/build/robot_sensors/build install --record /home/crubs/Documents/dev_ws/build/robot_sensors/install.log --single-version-externally-managed install_data

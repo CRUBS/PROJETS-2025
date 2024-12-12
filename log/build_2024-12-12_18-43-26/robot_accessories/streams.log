@@ -1,0 +1,26 @@
+[2.052s] Invoking command in '/home/crubs/Documents/dev_ws/src/robot_accessories': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_accessories/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_accessories build --build-base /home/crubs/Documents/dev_ws/build/robot_accessories/build install --record /home/crubs/Documents/dev_ws/build/robot_accessories/install.log --single-version-externally-managed install_data
+[2.534s] running egg_info
+[2.570s] writing ../../build/robot_accessories/robot_accessories.egg-info/PKG-INFO
+[2.570s] writing dependency_links to ../../build/robot_accessories/robot_accessories.egg-info/dependency_links.txt
+[2.574s] writing entry points to ../../build/robot_accessories/robot_accessories.egg-info/entry_points.txt
+[2.575s] writing requirements to ../../build/robot_accessories/robot_accessories.egg-info/requires.txt
+[2.576s] writing top-level names to ../../build/robot_accessories/robot_accessories.egg-info/top_level.txt
+[2.680s] reading manifest file '../../build/robot_accessories/robot_accessories.egg-info/SOURCES.txt'
+[2.681s] writing manifest file '../../build/robot_accessories/robot_accessories.egg-info/SOURCES.txt'
+[2.681s] running build
+[2.681s] running build_py
+[2.681s] running install
+[2.681s] running install_lib
+[2.714s] running install_data
+[2.715s] running install_egg_info
+[2.754s] removing '/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories-0.0.0-py3.12.egg-info' (and everything under it)
+[2.756s] Copying ../../build/robot_accessories/robot_accessories.egg-info to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories-0.0.0-py3.12.egg-info
+[2.760s] running install_scripts
+[3.038s] Installing clock script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.038s] Installing lcd_screen_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.041s] Installing lidar_led_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.041s] Installing motors_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.042s] Installing sequence_reader script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.043s] Installing servos_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.047s] writing list of installed files to '/home/crubs/Documents/dev_ws/build/robot_accessories/install.log'
+[3.191s] Invoked command in '/home/crubs/Documents/dev_ws/src/robot_accessories' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_accessories/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_accessories build --build-base /home/crubs/Documents/dev_ws/build/robot_accessories/build install --record /home/crubs/Documents/dev_ws/build/robot_accessories/install.log --single-version-externally-managed install_data

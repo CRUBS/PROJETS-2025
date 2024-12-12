@@ -1,3 +1,5 @@
 [console_scripts]
+cmd_test = imu_package.cmd_test:main
 imu_main = imu_package.imu_main:main
+move_2sec = imu_package.move_2sec:main
 wheel_listener = imu_package.wheel_listener:main

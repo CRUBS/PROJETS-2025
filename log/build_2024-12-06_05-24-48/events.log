@@ -1,0 +1,381 @@
+[0.000000] (-) TimerEvent: {}
+[0.000399] (-) JobUnselected: {'identifier': 'imu_package'}
+[0.000510] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.000541] (-) JobUnselected: {'identifier': 'robot_accessories'}
+[0.000562] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.000818] (-) JobUnselected: {'identifier': 'robot_communication'}
+[0.000840] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000987] (-) JobUnselected: {'identifier': 'robot_gazebo'}
+[0.001007] (-) JobUnselected: {'identifier': 'robot_navigation'}
+[0.001270] (-) JobUnselected: {'identifier': 'robot_sensors'}
+[0.001326] (camera_ros) JobQueued: {'identifier': 'camera_ros', 'dependencies': OrderedDict()}
+[0.001353] (robot_camera) JobQueued: {'identifier': 'robot_camera', 'dependencies': OrderedDict()}
+[0.001375] (camera_ros) JobStarted: {'identifier': 'camera_ros'}
+[0.021940] (robot_camera) JobStarted: {'identifier': 'robot_camera'}
+[0.045475] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'cmake'}
+[0.048251] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'build'}
+[0.049323] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/crubs/Documents/dev_ws/build/camera_ros', '--', '-j4', '-l4'], 'cwd': '/home/crubs/Documents/dev_ws/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'crubs', 'SSH_CLIENT': '192.168.1.139 35260 22', 'LC_TIME': 'fr_FR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib/aarch64-linux-gnu:/home/crubs/Documents/dev_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh', 'HOME': '/home/crubs', 'OLDPWD': '/home/crubs', 'TERM_PROGRAM_VERSION': '1.95.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-deeb7c0f-23a9-4c4c-810a-3a50e035f966.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'fr_FR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/crubs/Documents/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'crubs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/crubs/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/crubs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/crubs/.local/bin:/home/crubs/.local/bin', 'LC_ADDRESS': 'fr_FR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-542dfe1652.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_navigation:/home/crubs/Documents/dev_ws/install/robot_gazebo:/home/crubs/Documents/dev_ws/install/robot_description:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_bringup:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/ldlidar_stl_ros2:/home/crubs/Documents/dev_ws/install/imu_package:/home/crubs/Documents/dev_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/crubs/Documents/dev_ws/build/camera_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.139 35260 192.168.1.10 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/robot_communication/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/imu_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/crubs/Documents/dev_ws/install/robot_navigation:/home/crubs/Documents/dev_ws/install/robot_gazebo:/home/crubs/Documents/dev_ws/install/robot_description:/home/crubs/Documents/dev_ws/install/robot_bringup:/home/crubs/Documents/dev_ws/install/ldlidar_stl_ros2:/home/crubs/Documents/dev_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy'}), 'shell': False}
+[0.099639] (-) TimerEvent: {}
+[0.200014] (-) TimerEvent: {}
+[0.300431] (-) TimerEvent: {}
+[0.330058] (camera_ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400570] (-) TimerEvent: {}
+[0.501008] (-) TimerEvent: {}
+[0.601424] (-) TimerEvent: {}
+[0.701855] (-) TimerEvent: {}
+[0.763324] (camera_ros) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.801958] (-) TimerEvent: {}
+[0.832268] (camera_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.853487] (camera_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.893324] (camera_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.902064] (-) TimerEvent: {}
+[0.937338] (camera_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.002184] (-) TimerEvent: {}
+[1.102551] (-) TimerEvent: {}
+[1.121925] (camera_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.130968] (camera_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.202674] (-) TimerEvent: {}
+[1.283914] (camera_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.302778] (-) TimerEvent: {}
+[1.403202] (-) TimerEvent: {}
+[1.435125] (camera_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[1.502484] (camera_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.503275] (-) TimerEvent: {}
+[1.603560] (-) TimerEvent: {}
+[1.608865] (camera_ros) StdoutLine: {'line': b'-- Found camera_info_manager: 5.1.4 (/opt/ros/jazzy/share/camera_info_manager/cmake)\n'}
+[1.618403] (camera_ros) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[1.686323] (camera_ros) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[1.703669] (-) TimerEvent: {}
+[1.731617] (camera_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.804382] (-) TimerEvent: {}
+[1.904769] (-) TimerEvent: {}
+[1.952057] (robot_camera) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_camera', 'build', '--build-base', '/home/crubs/Documents/dev_ws/build/robot_camera/build', 'install', '--record', '/home/crubs/Documents/dev_ws/build/robot_camera/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/crubs/Documents/dev_ws/src/robot_camera', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'crubs', 'SSH_CLIENT': '192.168.1.139 35260 22', 'LC_TIME': 'fr_FR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib/aarch64-linux-gnu:/home/crubs/Documents/dev_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh', 'HOME': '/home/crubs', 'OLDPWD': '/home/crubs', 'TERM_PROGRAM_VERSION': '1.95.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-deeb7c0f-23a9-4c4c-810a-3a50e035f966.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'fr_FR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/crubs/Documents/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'crubs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/crubs/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/crubs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/crubs/.local/bin:/home/crubs/.local/bin', 'LC_ADDRESS': 'fr_FR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-542dfe1652.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_navigation:/home/crubs/Documents/dev_ws/install/robot_gazebo:/home/crubs/Documents/dev_ws/install/robot_description:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_bringup:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/ldlidar_stl_ros2:/home/crubs/Documents/dev_ws/install/imu_package:/home/crubs/Documents/dev_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/crubs/Documents/dev_ws/build/robot_camera', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.139 35260 192.168.1.10 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/crubs/Documents/dev_ws/build/robot_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/robot_communication/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/imu_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/crubs/Documents/dev_ws/install/robot_navigation:/home/crubs/Documents/dev_ws/install/robot_gazebo:/home/crubs/Documents/dev_ws/install/robot_description:/home/crubs/Documents/dev_ws/install/robot_bringup:/home/crubs/Documents/dev_ws/install/ldlidar_stl_ros2:/home/crubs/Documents/dev_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.998176] (camera_ros) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[2.004105] (camera_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.004574] (camera_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/crubs/Documents/dev_ws/src/camera_ros/include>\n'}
+[2.004782] (-) TimerEvent: {}
+[2.004930] (camera_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.006575] (camera_ros) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.006805] (camera_ros) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.008635] (camera_ros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.010435] (camera_ros) StdoutLine: {'line': b"-- Added test 'mypy' to statically type check Python code.\n"}
+[2.012375] (camera_ros) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.014120] (camera_ros) StdoutLine: {'line': b"-- Added test 'pyflakes' to perform static code analysis on Python code\n"}
+[2.015799] (camera_ros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.019641] (camera_ros) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[2.104523] (camera_ros) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.104813] (-) TimerEvent: {}
+[2.124325] (camera_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/crubs/Documents/dev_ws/build/camera_ros\n'}
+[2.206221] (-) TimerEvent: {}
+[2.279329] (camera_ros) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/utils.dir/src/clamp.cpp.o\x1b[0m\n'}
+[2.291535] (camera_ros) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/utils.dir/src/cv_to_pv.cpp.o\x1b[0m\n'}
+[2.297424] (camera_ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/utils.dir/src/format_mapping.cpp.o\x1b[0m\n'}
+[2.306337] (-) TimerEvent: {}
+[2.315589] (camera_ros) StdoutLine: {'line': b'[ 41%] Built target camera_node\n'}
+[2.338190] (camera_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/utils.dir/src/parameter_conflict_check.cpp.o\x1b[0m\n'}
+[2.406441] (-) TimerEvent: {}
+[2.459106] (robot_camera) StdoutLine: {'line': b'running egg_info\n'}
+[2.493848] (robot_camera) StdoutLine: {'line': b'writing ../../build/robot_camera/robot_camera.egg-info/PKG-INFO\n'}
+[2.494360] (robot_camera) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_camera/robot_camera.egg-info/dependency_links.txt\n'}
+[2.494733] (robot_camera) StdoutLine: {'line': b'writing entry points to ../../build/robot_camera/robot_camera.egg-info/entry_points.txt\n'}
+[2.495006] (robot_camera) StdoutLine: {'line': b'writing requirements to ../../build/robot_camera/robot_camera.egg-info/requires.txt\n'}
+[2.495180] (robot_camera) StdoutLine: {'line': b'writing top-level names to ../../build/robot_camera/robot_camera.egg-info/top_level.txt\n'}
+[2.506528] (-) TimerEvent: {}
+[2.563790] (robot_camera) StdoutLine: {'line': b"reading manifest file '../../build/robot_camera/robot_camera.egg-info/SOURCES.txt'\n"}
+[2.565095] (robot_camera) StdoutLine: {'line': b"writing manifest file '../../build/robot_camera/robot_camera.egg-info/SOURCES.txt'\n"}
+[2.565603] (robot_camera) StdoutLine: {'line': b'running build\n'}
+[2.565746] (robot_camera) StdoutLine: {'line': b'running build_py\n'}
+[2.566309] (robot_camera) StdoutLine: {'line': b'running install\n'}
+[2.577129] (robot_camera) StdoutLine: {'line': b'running install_lib\n'}
+[2.606654] (-) TimerEvent: {}
+[2.622453] (robot_camera) StdoutLine: {'line': b'running install_data\n'}
+[2.622877] (robot_camera) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.660668] (robot_camera) StdoutLine: {'line': b"removing '/home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages/robot_camera-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.664433] (robot_camera) StdoutLine: {'line': b'Copying ../../build/robot_camera/robot_camera.egg-info to /home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages/robot_camera-0.0.0-py3.12.egg-info\n'}
+[2.664695] (robot_camera) StdoutLine: {'line': b'running install_scripts\n'}
+[2.706770] (-) TimerEvent: {}
+[2.807636] (-) TimerEvent: {}
+[2.908714] (-) TimerEvent: {}
+[2.948645] (robot_camera) StdoutLine: {'line': b'Installing detection_node script to /home/crubs/Documents/dev_ws/install/robot_camera/lib/robot_camera\n'}
+[2.949268] (robot_camera) StdoutLine: {'line': b"writing list of installed files to '/home/crubs/Documents/dev_ws/build/robot_camera/install.log'\n"}
+[3.009038] (-) TimerEvent: {}
+[3.090230] (robot_camera) CommandEnded: {'returncode': 0}
+[3.115018] (-) TimerEvent: {}
+[3.205637] (robot_camera) JobEnded: {'identifier': 'robot_camera', 'rc': 0}
+[3.217676] (-) TimerEvent: {}
+[3.318255] (-) TimerEvent: {}
+[3.418908] (-) TimerEvent: {}
+[3.520535] (-) TimerEvent: {}
+[3.622680] (-) TimerEvent: {}
+[3.725838] (-) TimerEvent: {}
+[3.826920] (-) TimerEvent: {}
+[3.928703] (-) TimerEvent: {}
+[4.031437] (-) TimerEvent: {}
+[4.131938] (-) TimerEvent: {}
+[4.234258] (-) TimerEvent: {}
+[4.337331] (-) TimerEvent: {}
+[4.437805] (-) TimerEvent: {}
+[4.538253] (-) TimerEvent: {}
+[4.639279] (-) TimerEvent: {}
+[4.742573] (-) TimerEvent: {}
+[4.843111] (-) TimerEvent: {}
+[4.943664] (-) TimerEvent: {}
+[5.044388] (-) TimerEvent: {}
+[5.147279] (-) TimerEvent: {}
+[5.248242] (-) TimerEvent: {}
+[5.348708] (-) TimerEvent: {}
+[5.371000] (camera_ros) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/utils.dir/src/pretty_print.cpp.o\x1b[0m\n'}
+[5.450341] (-) TimerEvent: {}
+[5.551245] (-) TimerEvent: {}
+[5.652780] (-) TimerEvent: {}
+[5.756253] (-) TimerEvent: {}
+[5.856767] (-) TimerEvent: {}
+[5.908837] (camera_ros) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/utils.dir/src/pv_to_cv.cpp.o\x1b[0m\n'}
+[5.956897] (-) TimerEvent: {}
+[6.057436] (-) TimerEvent: {}
+[6.095915] (camera_ros) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/utils.dir/src/types.cpp.o\x1b[0m\n'}
+[6.159818] (-) TimerEvent: {}
+[6.261449] (-) TimerEvent: {}
+[6.362480] (-) TimerEvent: {}
+[6.464750] (-) TimerEvent: {}
+[6.565262] (-) TimerEvent: {}
+[6.666265] (-) TimerEvent: {}
+[6.767586] (-) TimerEvent: {}
+[6.870400] (-) TimerEvent: {}
+[6.970876] (-) TimerEvent: {}
+[7.071451] (-) TimerEvent: {}
+[7.172035] (-) TimerEvent: {}
+[7.273216] (-) TimerEvent: {}
+[7.375962] (-) TimerEvent: {}
+[7.476575] (-) TimerEvent: {}
+[7.577157] (-) TimerEvent: {}
+[7.677898] (-) TimerEvent: {}
+[7.780250] (-) TimerEvent: {}
+[7.880738] (-) TimerEvent: {}
+[7.927461] (camera_ros) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/utils.dir/src/type_extent.cpp.o\x1b[0m\n'}
+[7.980846] (-) TimerEvent: {}
+[8.081626] (-) TimerEvent: {}
+[8.183334] (-) TimerEvent: {}
+[8.283760] (-) TimerEvent: {}
+[8.384218] (-) TimerEvent: {}
+[8.484662] (-) TimerEvent: {}
+[8.585102] (-) TimerEvent: {}
+[8.686039] (-) TimerEvent: {}
+[8.786521] (-) TimerEvent: {}
+[8.886997] (-) TimerEvent: {}
+[8.987467] (-) TimerEvent: {}
+[9.087864] (-) TimerEvent: {}
+[9.188357] (-) TimerEvent: {}
+[9.231799] (camera_ros) StdoutLine: {'line': b'[ 83%] Built target utils\n'}
+[9.288471] (-) TimerEvent: {}
+[9.317568] (camera_ros) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/camera_component.dir/src/CameraNode.cpp.o\x1b[0m\n'}
+[9.388595] (-) TimerEvent: {}
+[9.488988] (-) TimerEvent: {}
+[9.589384] (-) TimerEvent: {}
+[9.689779] (-) TimerEvent: {}
+[9.790161] (-) TimerEvent: {}
+[9.890551] (-) TimerEvent: {}
+[9.990914] (-) TimerEvent: {}
+[10.091343] (-) TimerEvent: {}
+[10.191780] (-) TimerEvent: {}
+[10.292162] (-) TimerEvent: {}
+[10.392582] (-) TimerEvent: {}
+[10.493208] (-) TimerEvent: {}
+[10.593600] (-) TimerEvent: {}
+[10.693976] (-) TimerEvent: {}
+[10.794352] (-) TimerEvent: {}
+[10.894746] (-) TimerEvent: {}
+[10.995170] (-) TimerEvent: {}
+[11.095562] (-) TimerEvent: {}
+[11.195955] (-) TimerEvent: {}
+[11.296350] (-) TimerEvent: {}
+[11.396784] (-) TimerEvent: {}
+[11.497194] (-) TimerEvent: {}
+[11.597626] (-) TimerEvent: {}
+[11.698014] (-) TimerEvent: {}
+[11.798400] (-) TimerEvent: {}
+[11.898789] (-) TimerEvent: {}
+[11.999170] (-) TimerEvent: {}
+[12.099536] (-) TimerEvent: {}
+[12.199906] (-) TimerEvent: {}
+[12.300287] (-) TimerEvent: {}
+[12.400673] (-) TimerEvent: {}
+[12.501048] (-) TimerEvent: {}
+[12.601444] (-) TimerEvent: {}
+[12.701810] (-) TimerEvent: {}
+[12.802185] (-) TimerEvent: {}
+[12.902551] (-) TimerEvent: {}
+[13.002916] (-) TimerEvent: {}
+[13.103294] (-) TimerEvent: {}
+[13.203695] (-) TimerEvent: {}
+[13.304110] (-) TimerEvent: {}
+[13.404496] (-) TimerEvent: {}
+[13.504863] (-) TimerEvent: {}
+[13.605245] (-) TimerEvent: {}
+[13.705652] (-) TimerEvent: {}
+[13.806035] (-) TimerEvent: {}
+[13.906425] (-) TimerEvent: {}
+[14.006831] (-) TimerEvent: {}
+[14.107246] (-) TimerEvent: {}
+[14.207687] (-) TimerEvent: {}
+[14.308155] (-) TimerEvent: {}
+[14.408574] (-) TimerEvent: {}
+[14.508948] (-) TimerEvent: {}
+[14.609375] (-) TimerEvent: {}
+[14.709976] (-) TimerEvent: {}
+[14.810389] (-) TimerEvent: {}
+[14.910755] (-) TimerEvent: {}
+[15.011165] (-) TimerEvent: {}
+[15.111546] (-) TimerEvent: {}
+[15.211909] (-) TimerEvent: {}
+[15.312326] (-) TimerEvent: {}
+[15.412755] (-) TimerEvent: {}
+[15.513169] (-) TimerEvent: {}
+[15.613557] (-) TimerEvent: {}
+[15.713915] (-) TimerEvent: {}
+[15.814309] (-) TimerEvent: {}
+[15.914709] (-) TimerEvent: {}
+[16.015080] (-) TimerEvent: {}
+[16.115441] (-) TimerEvent: {}
+[16.215810] (-) TimerEvent: {}
+[16.316231] (-) TimerEvent: {}
+[16.416630] (-) TimerEvent: {}
+[16.517107] (-) TimerEvent: {}
+[16.617520] (-) TimerEvent: {}
+[16.717906] (-) TimerEvent: {}
+[16.818294] (-) TimerEvent: {}
+[16.918673] (-) TimerEvent: {}
+[17.019124] (-) TimerEvent: {}
+[17.119619] (-) TimerEvent: {}
+[17.219996] (-) TimerEvent: {}
+[17.320396] (-) TimerEvent: {}
+[17.420811] (-) TimerEvent: {}
+[17.521649] (-) TimerEvent: {}
+[17.622224] (-) TimerEvent: {}
+[17.722610] (-) TimerEvent: {}
+[17.823029] (-) TimerEvent: {}
+[17.923509] (-) TimerEvent: {}
+[18.023870] (-) TimerEvent: {}
+[18.124238] (-) TimerEvent: {}
+[18.224596] (-) TimerEvent: {}
+[18.324975] (-) TimerEvent: {}
+[18.425374] (-) TimerEvent: {}
+[18.525754] (-) TimerEvent: {}
+[18.626131] (-) TimerEvent: {}
+[18.726525] (-) TimerEvent: {}
+[18.826905] (-) TimerEvent: {}
+[18.927305] (-) TimerEvent: {}
+[19.027834] (-) TimerEvent: {}
+[19.128214] (-) TimerEvent: {}
+[19.228632] (-) TimerEvent: {}
+[19.329082] (-) TimerEvent: {}
+[19.429472] (-) TimerEvent: {}
+[19.529837] (-) TimerEvent: {}
+[19.630227] (-) TimerEvent: {}
+[19.730605] (-) TimerEvent: {}
+[19.830976] (-) TimerEvent: {}
+[19.931366] (-) TimerEvent: {}
+[20.031756] (-) TimerEvent: {}
+[20.132155] (-) TimerEvent: {}
+[20.232526] (-) TimerEvent: {}
+[20.336366] (-) TimerEvent: {}
+[20.436740] (-) TimerEvent: {}
+[20.537122] (-) TimerEvent: {}
+[20.637515] (-) TimerEvent: {}
+[20.737907] (-) TimerEvent: {}
+[20.838312] (-) TimerEvent: {}
+[20.938690] (-) TimerEvent: {}
+[21.039038] (-) TimerEvent: {}
+[21.139416] (-) TimerEvent: {}
+[21.239787] (-) TimerEvent: {}
+[21.340467] (-) TimerEvent: {}
+[21.441103] (-) TimerEvent: {}
+[21.541613] (-) TimerEvent: {}
+[21.641971] (-) TimerEvent: {}
+[21.742405] (-) TimerEvent: {}
+[21.842777] (-) TimerEvent: {}
+[21.943155] (-) TimerEvent: {}
+[22.043503] (-) TimerEvent: {}
+[22.143859] (-) TimerEvent: {}
+[22.244242] (-) TimerEvent: {}
+[22.344610] (-) TimerEvent: {}
+[22.444981] (-) TimerEvent: {}
+[22.545372] (-) TimerEvent: {}
+[22.645732] (-) TimerEvent: {}
+[22.746110] (-) TimerEvent: {}
+[22.846509] (-) TimerEvent: {}
+[22.946910] (-) TimerEvent: {}
+[23.047461] (-) TimerEvent: {}
+[23.147838] (-) TimerEvent: {}
+[23.248210] (-) TimerEvent: {}
+[23.348558] (-) TimerEvent: {}
+[23.448926] (-) TimerEvent: {}
+[23.549309] (-) TimerEvent: {}
+[23.649687] (-) TimerEvent: {}
+[23.750052] (-) TimerEvent: {}
+[23.850485] (-) TimerEvent: {}
+[23.950856] (-) TimerEvent: {}
+[24.051219] (-) TimerEvent: {}
+[24.151589] (-) TimerEvent: {}
+[24.251963] (-) TimerEvent: {}
+[24.352338] (-) TimerEvent: {}
+[24.452721] (-) TimerEvent: {}
+[24.553107] (-) TimerEvent: {}
+[24.653508] (-) TimerEvent: {}
+[24.753923] (-) TimerEvent: {}
+[24.854318] (-) TimerEvent: {}
+[24.954724] (-) TimerEvent: {}
+[25.055156] (-) TimerEvent: {}
+[25.155591] (-) TimerEvent: {}
+[25.256012] (-) TimerEvent: {}
+[25.356711] (-) TimerEvent: {}
+[25.457326] (-) TimerEvent: {}
+[25.557740] (-) TimerEvent: {}
+[25.658130] (-) TimerEvent: {}
+[25.744773] (camera_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_component.so\x1b[0m\n'}
+[25.758252] (-) TimerEvent: {}
+[25.858699] (-) TimerEvent: {}
+[25.959336] (-) TimerEvent: {}
+[26.060107] (-) TimerEvent: {}
+[26.161171] (-) TimerEvent: {}
+[26.261792] (-) TimerEvent: {}
+[26.362997] (-) TimerEvent: {}
+[26.464023] (-) TimerEvent: {}
+[26.564585] (-) TimerEvent: {}
+[26.665651] (-) TimerEvent: {}
+[26.766685] (-) TimerEvent: {}
+[26.867281] (-) TimerEvent: {}
+[26.967843] (-) TimerEvent: {}
+[27.068272] (-) TimerEvent: {}
+[27.168652] (-) TimerEvent: {}
+[27.269001] (-) TimerEvent: {}
+[27.304263] (camera_ros) StdoutLine: {'line': b'[100%] Built target camera_component\n'}
+[27.328936] (camera_ros) CommandEnded: {'returncode': 0}
+[27.332016] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'install'}
+[27.351609] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/crubs/Documents/dev_ws/build/camera_ros'], 'cwd': '/home/crubs/Documents/dev_ws/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'crubs', 'SSH_CLIENT': '192.168.1.139 35260 22', 'LC_TIME': 'fr_FR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib/aarch64-linux-gnu:/home/crubs/Documents/dev_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/helpers/browser.sh', 'HOME': '/home/crubs', 'OLDPWD': '/home/crubs', 'TERM_PROGRAM_VERSION': '1.95.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-deeb7c0f-23a9-4c4c-810a-3a50e035f966.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'fr_FR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/crubs/Documents/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'crubs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/crubs/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli:/home/crubs/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/crubs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/crubs/.local/bin:/home/crubs/.local/bin', 'LC_ADDRESS': 'fr_FR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-542dfe1652.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_navigation:/home/crubs/Documents/dev_ws/install/robot_gazebo:/home/crubs/Documents/dev_ws/install/robot_description:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_bringup:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/ldlidar_stl_ros2:/home/crubs/Documents/dev_ws/install/imu_package:/home/crubs/Documents/dev_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/crubs/Documents/dev_ws/build/camera_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.139 35260 192.168.1.10 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/crubs/Documents/dev_ws/install/robot_sensors/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/robot_communication/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages:/home/crubs/Documents/dev_ws/install/imu_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/crubs/Documents/dev_ws/install/robot_navigation:/home/crubs/Documents/dev_ws/install/robot_gazebo:/home/crubs/Documents/dev_ws/install/robot_description:/home/crubs/Documents/dev_ws/install/robot_bringup:/home/crubs/Documents/dev_ws/install/ldlidar_stl_ros2:/home/crubs/Documents/dev_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy'}), 'shell': False}
+[27.369117] (-) TimerEvent: {}
+[27.369905] (camera_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.373180] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/lib/camera_ros/camera_node\n'}
+[27.375179] (camera_ros) StdoutLine: {'line': b'-- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/lib/libcamera_component.so\n'}
+[27.386327] (camera_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/crubs/Documents/dev_ws/install/camera_ros/lib/libcamera_component.so" to ""\n'}
+[27.386680] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros//launch\n'}
+[27.386803] (camera_ros) StdoutLine: {'line': b'-- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py\n'}
+[27.387061] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros\n'}
+[27.387299] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros\n'}
+[27.387456] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh\n'}
+[27.387551] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv\n'}
+[27.387636] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/path.sh\n'}
+[27.387745] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/path.dsv\n'}
+[27.387835] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.bash\n'}
+[27.387924] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.sh\n'}
+[27.388013] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.zsh\n'}
+[27.388101] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.dsv\n'}
+[27.388240] (camera_ros) StdoutLine: {'line': b'-- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/package.dsv\n'}
+[27.388329] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros\n'}
+[27.388422] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros\n'}
+[27.388506] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake\n'}
+[27.388587] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake\n'}
+[27.388667] (camera_ros) StdoutLine: {'line': b'-- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/package.xml\n'}
+[27.391038] (camera_ros) CommandEnded: {'returncode': 0}
+[27.421592] (camera_ros) JobEnded: {'identifier': 'camera_ros', 'rc': 0}
+[27.422947] (-) EventReactorShutdown: {}

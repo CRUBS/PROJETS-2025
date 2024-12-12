@@ -15,7 +15,7 @@ class MyNode(Node):
     __init__ initialises the global processes and variables
     """
     def __init__(self):
-        super().__init__('Wheel_odom')
+        super().__init__('wheel_odom')
         self.frequency = 0.05  # Period between callbacks
         self.publisher_ = self.create_publisher(Odometry, '/odom', 10)
         self.tf_broadcaster = TransformBroadcaster(self)

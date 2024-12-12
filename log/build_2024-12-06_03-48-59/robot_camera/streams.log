@@ -1,0 +1,38 @@
+[6.479s] Invoking command in '/home/crubs/Documents/dev_ws/src/robot_camera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_camera build --build-base /home/crubs/Documents/dev_ws/build/robot_camera/build install --record /home/crubs/Documents/dev_ws/build/robot_camera/install.log --single-version-externally-managed install_data
+[7.293s] /home/crubs/ros2_env/lib/python3.12/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[7.293s]   warnings.warn(msg)
+[7.989s] running egg_info
+[7.999s] creating ../../build/robot_camera/robot_camera.egg-info
+[8.137s] writing ../../build/robot_camera/robot_camera.egg-info/PKG-INFO
+[8.138s] writing dependency_links to ../../build/robot_camera/robot_camera.egg-info/dependency_links.txt
+[8.144s] writing entry points to ../../build/robot_camera/robot_camera.egg-info/entry_points.txt
+[8.145s] writing requirements to ../../build/robot_camera/robot_camera.egg-info/requires.txt
+[8.145s] writing top-level names to ../../build/robot_camera/robot_camera.egg-info/top_level.txt
+[8.146s] writing manifest file '../../build/robot_camera/robot_camera.egg-info/SOURCES.txt'
+[8.561s] reading manifest file '../../build/robot_camera/robot_camera.egg-info/SOURCES.txt'
+[8.567s] writing manifest file '../../build/robot_camera/robot_camera.egg-info/SOURCES.txt'
+[8.567s] running build
+[8.568s] running build_py
+[8.568s] creating /home/crubs/Documents/dev_ws/build/robot_camera/build/lib/robot_camera
+[8.569s] copying robot_camera/CameraDetection.py -> /home/crubs/Documents/dev_ws/build/robot_camera/build/lib/robot_camera
+[8.569s] copying robot_camera/__init__.py -> /home/crubs/Documents/dev_ws/build/robot_camera/build/lib/robot_camera
+[8.569s] copying robot_camera/Detection.py -> /home/crubs/Documents/dev_ws/build/robot_camera/build/lib/robot_camera
+[8.578s] running install
+[8.604s] running install_lib
+[8.751s] creating /home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages/robot_camera
+[8.752s] copying /home/crubs/Documents/dev_ws/build/robot_camera/build/lib/robot_camera/CameraDetection.py -> /home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages/robot_camera
+[8.757s] copying /home/crubs/Documents/dev_ws/build/robot_camera/build/lib/robot_camera/__init__.py -> /home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages/robot_camera
+[8.757s] copying /home/crubs/Documents/dev_ws/build/robot_camera/build/lib/robot_camera/Detection.py -> /home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages/robot_camera
+[8.762s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages/robot_camera/CameraDetection.py to CameraDetection.cpython-312.pyc
+[8.769s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages/robot_camera/__init__.py to __init__.cpython-312.pyc
+[8.770s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages/robot_camera/Detection.py to Detection.cpython-312.pyc
+[8.783s] running install_data
+[8.783s] creating /home/crubs/Documents/dev_ws/install/robot_camera/share/ament_index/resource_index/packages
+[8.784s] copying resource/robot_camera -> /home/crubs/Documents/dev_ws/install/robot_camera/share/ament_index/resource_index/packages
+[8.793s] copying package.xml -> /home/crubs/Documents/dev_ws/install/robot_camera/share/robot_camera
+[8.793s] running install_egg_info
+[9.023s] Copying ../../build/robot_camera/robot_camera.egg-info to /home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages/robot_camera-0.0.0-py3.12.egg-info
+[9.032s] running install_scripts
+[10.078s] Installing detection_node script to /home/crubs/Documents/dev_ws/install/robot_camera/lib/robot_camera
+[10.084s] writing list of installed files to '/home/crubs/Documents/dev_ws/build/robot_camera/install.log'
+[10.365s] Invoked command in '/home/crubs/Documents/dev_ws/src/robot_camera' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_camera/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_camera build --build-base /home/crubs/Documents/dev_ws/build/robot_camera/build install --record /home/crubs/Documents/dev_ws/build/robot_camera/install.log --single-version-externally-managed install_data

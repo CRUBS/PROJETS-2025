@@ -1,0 +1,91 @@
+[0.036s] Invoking command in '/home/crubs/Documents/dev_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake /home/crubs/Documents/dev_ws/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/crubs/Documents/dev_ws/install/camera_ros
+[0.497s] -- The C compiler identification is GNU 13.2.0
+[0.497s] -- The CXX compiler identification is GNU 13.2.0
+[0.498s] -- Detecting C compiler ABI info
+[0.498s] -- Detecting C compiler ABI info - done
+[0.499s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.499s] -- Detecting C compile features
+[0.499s] -- Detecting C compile features - done
+[0.513s] -- Detecting CXX compiler ABI info
+[0.754s] -- Detecting CXX compiler ABI info - done
+[0.771s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.771s] -- Detecting CXX compile features
+[0.771s] -- Detecting CXX compile features - done
+[0.783s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.790s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.049s] -- Found Python3: /home/crubs/ros2_env/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.355s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.457s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.489s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.561s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.723s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.732s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.017s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.055s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.096s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.250s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[2.331s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.454s] -- Found camera_info_manager: 5.1.4 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[2.470s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.548s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[2.574s] -- Checking for module 'libcamera>=0.1'
+[2.613s] --   Found libcamera, version 0.3.2
+[2.715s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.971s] -- Added test 'clang_format' to check C / C++ code style
+[2.977s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.980s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/crubs/Documents/dev_ws/src/camera_ros/include>
+[2.980s] -- Configured cppcheck exclude dirs and/or files: 
+[2.981s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.981s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.983s] -- Added test 'lint_cmake' to check CMake code style
+[2.985s] -- Added test 'mypy' to statically type check Python code.
+[2.987s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.990s] -- Added test 'pyflakes' to perform static code analysis on Python code
+[2.992s] -- Added test 'xmllint' to check XML markup files
+[2.995s] -- Configuring done (2.9s)
+[3.036s] -- Generating done (0.0s)
+[3.051s] -- Build files have been written to: /home/crubs/Documents/dev_ws/build/camera_ros
+[3.085s] Invoked command in '/home/crubs/Documents/dev_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake /home/crubs/Documents/dev_ws/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/crubs/Documents/dev_ws/install/camera_ros
+[3.086s] Invoking command in '/home/crubs/Documents/dev_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --build /home/crubs/Documents/dev_ws/build/camera_ros -- -j4 -l4
+[3.248s] [  8%] [32mBuilding CXX object CMakeFiles/camera_node.dir/rclcpp_components/node_main_camera_node.cpp.o[0m
+[3.276s] [ 16%] [32mBuilding CXX object CMakeFiles/utils.dir/src/clamp.cpp.o[0m
+[3.283s] [ 33%] [32mBuilding CXX object CMakeFiles/utils.dir/src/format_mapping.cpp.o[0m
+[3.288s] [ 25%] [32mBuilding CXX object CMakeFiles/utils.dir/src/cv_to_pv.cpp.o[0m
+[9.218s] [ 41%] [32mBuilding CXX object CMakeFiles/utils.dir/src/parameter_conflict_check.cpp.o[0m
+[11.768s] [ 50%] [32mBuilding CXX object CMakeFiles/utils.dir/src/pretty_print.cpp.o[0m
+[15.396s] [ 58%] [32mBuilding CXX object CMakeFiles/utils.dir/src/pv_to_cv.cpp.o[0m
+[16.207s] [ 66%] [32mBuilding CXX object CMakeFiles/utils.dir/src/types.cpp.o[0m
+[18.490s] [ 75%] [32mBuilding CXX object CMakeFiles/utils.dir/src/type_extent.cpp.o[0m
+[21.023s] [ 75%] Built target utils
+[21.105s] [ 83%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/CameraNode.cpp.o[0m
+[21.772s] [ 91%] [32m[1mLinking CXX executable camera_node[0m
+[22.271s] [ 91%] Built target camera_node
+[37.557s] [100%] [32m[1mLinking CXX shared library libcamera_component.so[0m
+[38.878s] [100%] Built target camera_component
+[38.901s] Invoked command in '/home/crubs/Documents/dev_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --build /home/crubs/Documents/dev_ws/build/camera_ros -- -j4 -l4
+[38.904s] Invoking command in '/home/crubs/Documents/dev_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --install /home/crubs/Documents/dev_ws/build/camera_ros
+[38.920s] -- Install configuration: ""
+[38.921s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/lib/camera_ros/camera_node
+[38.922s] -- Set non-toolchain portion of runtime path of "/home/crubs/Documents/dev_ws/install/camera_ros/lib/camera_ros/camera_node" to ""
+[38.922s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/lib/libcamera_component.so
+[38.932s] -- Set non-toolchain portion of runtime path of "/home/crubs/Documents/dev_ws/install/camera_ros/lib/libcamera_component.so" to ""
+[38.932s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros//launch
+[38.932s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py
+[38.933s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros
+[38.933s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros
+[38.933s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh
+[38.933s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv
+[38.933s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/path.sh
+[38.933s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/environment/path.dsv
+[38.934s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.bash
+[38.934s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.sh
+[38.934s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.zsh
+[38.934s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/local_setup.dsv
+[38.934s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/package.dsv
+[38.934s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros
+[38.935s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros
+[38.935s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake
+[38.935s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake
+[38.935s] -- Installing: /home/crubs/Documents/dev_ws/install/camera_ros/share/camera_ros/package.xml
+[38.939s] Invoked command in '/home/crubs/Documents/dev_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --install /home/crubs/Documents/dev_ws/build/camera_ros

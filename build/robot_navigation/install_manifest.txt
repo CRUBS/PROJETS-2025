@@ -1,9 +1,12 @@
 /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/smoother.launch.py
-/home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/nav2.launch.py
-/home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/map_server.launch.py
+/home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/nav2_localization.launch.py
 /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/slam.launch.py
+/home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/nav2_navigation.launch.py
+/home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/examples/navigation_launch.py
+/home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/launch/examples/localization_launch.py
+/home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/maps/map.pgm
 /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/maps/map.yaml
-/home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/maps/Map_complete.pgm
+/home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/maps/map.png
 /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/config/smoother.yaml
 /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/config/slam.yaml
 /home/crubs/Documents/dev_ws/install/robot_navigation/share/robot_navigation/config/navigate_w_replanning_and_recovery.xml

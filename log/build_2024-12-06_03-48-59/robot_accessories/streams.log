@@ -1,0 +1,72 @@
+[2.446s] Invoking command in '/home/crubs/Documents/dev_ws/src/robot_accessories': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_accessories/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_accessories build --build-base /home/crubs/Documents/dev_ws/build/robot_accessories/build install --record /home/crubs/Documents/dev_ws/build/robot_accessories/install.log --single-version-externally-managed install_data
+[2.769s] /home/crubs/ros2_env/lib/python3.12/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.770s]   warnings.warn(msg)
+[3.010s] running egg_info
+[3.011s] creating ../../build/robot_accessories/robot_accessories.egg-info
+[3.053s] writing ../../build/robot_accessories/robot_accessories.egg-info/PKG-INFO
+[3.053s] writing dependency_links to ../../build/robot_accessories/robot_accessories.egg-info/dependency_links.txt
+[3.054s] writing entry points to ../../build/robot_accessories/robot_accessories.egg-info/entry_points.txt
+[3.057s] writing requirements to ../../build/robot_accessories/robot_accessories.egg-info/requires.txt
+[3.057s] writing top-level names to ../../build/robot_accessories/robot_accessories.egg-info/top_level.txt
+[3.057s] writing manifest file '../../build/robot_accessories/robot_accessories.egg-info/SOURCES.txt'
+[3.150s] reading manifest file '../../build/robot_accessories/robot_accessories.egg-info/SOURCES.txt'
+[3.152s] writing manifest file '../../build/robot_accessories/robot_accessories.egg-info/SOURCES.txt'
+[3.152s] running build
+[3.152s] running build_py
+[3.153s] creating /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.153s] copying robot_accessories/__init__.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.153s] copying robot_accessories/matrice.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.154s] copying robot_accessories/servosPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.154s] copying robot_accessories/velocity_smoother.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.154s] copying robot_accessories/matrice_test.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.155s] copying robot_accessories/clock.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.155s] copying robot_accessories/sequenceRead.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.156s] copying robot_accessories/lcdPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.156s] copying robot_accessories/sequenceRead copy.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.157s] copying robot_accessories/motorsPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.157s] copying robot_accessories/lidarLedsPrepare.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.157s] copying robot_accessories/servosPrepareOld.py -> /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories
+[3.158s] running install
+[3.167s] running install_lib
+[3.213s] creating /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.213s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/__init__.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.214s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/matrice.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.214s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/servosPrepare.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.215s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/velocity_smoother.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.216s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/matrice_test.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.217s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/clock.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.217s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/sequenceRead.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.219s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/lcdPrepare.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.219s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/sequenceRead copy.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.220s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/motorsPrepare.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.220s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/lidarLedsPrepare.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.221s] copying /home/crubs/Documents/dev_ws/build/robot_accessories/build/lib/robot_accessories/servosPrepareOld.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories
+[3.223s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/__init__.py to __init__.cpython-312.pyc
+[3.225s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/matrice.py to matrice.cpython-312.pyc
+[3.227s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/servosPrepare.py to servosPrepare.cpython-312.pyc
+[3.232s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/velocity_smoother.py to velocity_smoother.cpython-312.pyc
+[3.234s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/matrice_test.py to matrice_test.cpython-312.pyc
+[3.234s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/clock.py to clock.cpython-312.pyc
+[3.234s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/sequenceRead.py to sequenceRead.cpython-312.pyc
+[3.237s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/lcdPrepare.py to lcdPrepare.cpython-312.pyc
+[3.239s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/sequenceRead copy.py to sequenceRead copy.cpython-312.pyc
+[3.242s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/motorsPrepare.py to motorsPrepare.cpython-312.pyc
+[3.245s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/lidarLedsPrepare.py to lidarLedsPrepare.cpython-312.pyc
+[3.246s] byte-compiling /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories/servosPrepareOld.py to servosPrepareOld.cpython-312.pyc
+[3.248s] running install_data
+[3.248s] creating /home/crubs/Documents/dev_ws/install/robot_accessories/share/ament_index/resource_index/packages
+[3.249s] copying resource/robot_accessories -> /home/crubs/Documents/dev_ws/install/robot_accessories/share/ament_index/resource_index/packages
+[3.250s] copying package.xml -> /home/crubs/Documents/dev_ws/install/robot_accessories/share/robot_accessories
+[3.250s] creating /home/crubs/Documents/dev_ws/install/robot_accessories/share/robot_accessories/launch
+[3.251s] copying launch/allAccessories.launch.py -> /home/crubs/Documents/dev_ws/install/robot_accessories/share/robot_accessories/launch
+[3.251s] running install_egg_info
+[3.303s] Copying ../../build/robot_accessories/robot_accessories.egg-info to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages/robot_accessories-0.0.0-py3.12.egg-info
+[3.309s] running install_scripts
+[3.539s] Installing clock script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.539s] Installing lcd_screen_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.540s] Installing lidar_led_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.540s] Installing motors_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.540s] Installing sequence_reader script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.540s] Installing servos_prepare script to /home/crubs/Documents/dev_ws/install/robot_accessories/lib/robot_accessories
+[3.541s] writing list of installed files to '/home/crubs/Documents/dev_ws/build/robot_accessories/install.log'
+[3.670s] Invoked command in '/home/crubs/Documents/dev_ws/src/robot_accessories' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/crubs/Documents/dev_ws/build/robot_accessories/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crubs/Documents/dev_ws/install/robot_accessories/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_accessories build --build-base /home/crubs/Documents/dev_ws/build/robot_accessories/build install --record /home/crubs/Documents/dev_ws/build/robot_accessories/install.log --single-version-externally-managed install_data

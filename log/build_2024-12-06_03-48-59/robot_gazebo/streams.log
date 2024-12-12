@@ -1,0 +1,79 @@
+[0.032s] Invoking command in '/home/crubs/Documents/dev_ws/build/robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake /home/crubs/Documents/dev_ws/src/robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/crubs/Documents/dev_ws/install/robot_gazebo
+[0.280s] -- The C compiler identification is GNU 13.2.0
+[0.590s] -- The CXX compiler identification is GNU 13.2.0
+[0.632s] -- Detecting C compiler ABI info
+[1.105s] -- Detecting C compiler ABI info - done
+[1.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.148s] -- Detecting C compile features
+[1.148s] -- Detecting C compile features - done
+[1.183s] -- Detecting CXX compiler ABI info
+[1.719s] -- Detecting CXX compiler ABI info - done
+[1.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.764s] -- Detecting CXX compile features
+[1.765s] -- Detecting CXX compile features - done
+[1.787s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.335s] -- Found Python3: /home/crubs/ros2_env/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.742s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.131s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.139s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.140s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.143s] -- Added test 'lint_cmake' to check CMake code style
+[3.145s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.152s] -- Added test 'xmllint' to check XML markup files
+[3.157s] -- Configuring done (3.1s)
+[3.162s] -- Generating done (0.0s)
+[3.167s] -- Build files have been written to: /home/crubs/Documents/dev_ws/build/robot_gazebo
+[3.187s] Invoked command in '/home/crubs/Documents/dev_ws/build/robot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake /home/crubs/Documents/dev_ws/src/robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/crubs/Documents/dev_ws/install/robot_gazebo
+[3.187s] Invoking command in '/home/crubs/Documents/dev_ws/build/robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --build /home/crubs/Documents/dev_ws/build/robot_gazebo -- -j4 -l4
+[3.395s] Invoked command in '/home/crubs/Documents/dev_ws/build/robot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --build /home/crubs/Documents/dev_ws/build/robot_gazebo -- -j4 -l4
+[3.396s] Invoking command in '/home/crubs/Documents/dev_ws/build/robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --install /home/crubs/Documents/dev_ws/build/robot_gazebo
+[3.439s] -- Install configuration: ""
+[3.439s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/launch
+[3.439s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/launch/gazebo.launch.py
+[3.440s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds
+[3.440s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/mondeCDF24.sdf
+[3.440s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/Plateau_jeu_CdF.sdf
+[3.440s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models
+[3.441s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv
+[3.442s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/meshes
+[3.442s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/meshes/suv.obj
+[3.442s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/meshes/plante.obj
+[3.453s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/meshes/plante.mtl
+[3.454s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/meshes/suv.mtl
+[3.454s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/meshes/plante.dae
+[3.463s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/model.sdf
+[3.463s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/materials
+[3.463s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/materials/textures
+[3.463s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/materials/textures/suv.png
+[3.468s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/materials/textures/wheels_01.png
+[3.475s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/suv/model.config
+[3.476s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/plante_cdf
+[3.476s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/plante_cdf/textures
+[3.476s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/plante_cdf/meshes
+[3.476s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/plante_cdf/meshes/plante.dae
+[3.486s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/plante_cdf/model.sdf
+[3.489s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/plante_cdf/model.config
+[3.490s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/table_eurobot_2020
+[3.490s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/table_eurobot_2020/textures
+[3.490s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/table_eurobot_2020/textures/text_sail_the_world.png
+[3.491s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/table_eurobot_2020/meshes
+[3.491s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/table_eurobot_2020/meshes/text_sail_the_world.png
+[3.491s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/table_eurobot_2020/meshes/tableSansPanneau.dae
+[3.491s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/table_eurobot_2020/model.sdf
+[3.491s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/worlds/models/table_eurobot_2020/model.config
+[3.496s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/ament_index/resource_index/package_run_dependencies/robot_gazebo
+[3.496s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/ament_index/resource_index/parent_prefix_path/robot_gazebo
+[3.497s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/environment/ament_prefix_path.sh
+[3.497s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/environment/ament_prefix_path.dsv
+[3.498s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/environment/path.sh
+[3.498s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/environment/path.dsv
+[3.499s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/local_setup.bash
+[3.499s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/local_setup.sh
+[3.502s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/local_setup.zsh
+[3.502s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/local_setup.dsv
+[3.503s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/package.dsv
+[3.503s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/ament_index/resource_index/packages/robot_gazebo
+[3.503s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig.cmake
+[3.503s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig-version.cmake
+[3.522s] -- Installing: /home/crubs/Documents/dev_ws/install/robot_gazebo/share/robot_gazebo/package.xml
+[3.522s] Invoked command in '/home/crubs/Documents/dev_ws/build/robot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crubs/Documents/dev_ws/install/robot_sensors:/home/crubs/Documents/dev_ws/install/robot_communication:/home/crubs/Documents/dev_ws/install/robot_camera:/home/crubs/Documents/dev_ws/install/robot_accessories:/home/crubs/Documents/dev_ws/install/imu_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_env) /usr/bin/cmake --install /home/crubs/Documents/dev_ws/build/robot_gazebo
