@@ -1,2 +1,0 @@
-[console_scripts]
-detection_node = robot_camera.CameraDetection:main
